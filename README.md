@@ -7,9 +7,11 @@ It simply follows the [official installation procedure](https://www.elastic.co/g
 
 Logs to STDOUT so easy to pull logs with `docker logs`.
 
-You will find a reference Filebeat config file in `filebeat.reference.yml`.
+You will find a reference Filebeat config file in the `filebeat.reference.yml` file. You can find 
+the full documentation [here](https://www.elastic.co/guide/en/beats/filebeat/current/configuring-howto-filebeat.html).
 
-This image expects the find the config file at `/etc/filebeat/filebeat.yml`.
+This image expects to find the config file at `/etc/filebeat/filebeat.yml`. Pass it in via
+a volume or some other means.
 
 ## Build warnings
 
